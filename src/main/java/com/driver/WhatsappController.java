@@ -52,7 +52,7 @@ public class WhatsappController {
     public int createMessage(String content){
         // The 'i^th' created message has message id 'i'.
         // Return the message id.
-
+        //System.out.println(whatsappService.createMessage("tharun"));
         return whatsappService.createMessage(content);
     }
 

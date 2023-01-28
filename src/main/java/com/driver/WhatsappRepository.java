@@ -60,6 +60,7 @@ public class WhatsappRepository {
         messageId++;
         Date date=new Date();
         Message message=new Message(messageId,content,date);
+       // System.out.println(date);
         return messageId;
     }
 

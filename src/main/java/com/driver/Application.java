@@ -6,7 +6,11 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 @SpringBootApplication
 public class Application {
 
-	public static void main(String[] args) {
+	public static void main(String[] args)
+	{
+		WhatsappController whatsappController=new WhatsappController();
+	//	whatsappController.createMessage("Tharun");
+
 		SpringApplication.run(Application.class, args);
 	}
 }
